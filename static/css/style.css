@@ -1,0 +1,44 @@
+body{
+background-image: url(/static/images/bg.png);
+background-repeat: repeat;
+font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+text-align: justify;
+
+}
+.title{
+border: grey 3PX solid;
+    color: red;
+   width: 85%;
+   margin: auto;
+text-align: center;
+border-radius:40px;
+
+
+}
+.bigbox{background-color: white;
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 15px;
+}
+a{display: block;
+    float: left;
+    background-color: bisque;
+    margin: 25px;
+    padding: 20px;
+    color:black;
+text-decoration: none;
+
+}
+a:hover{ box-shadow: 5px 5px 5px 1px grey;
+}
+.aa{
+    border: white 5px solid;
+border-radius:40px;
+}
+
+ul{list-style: square ;}
+h2{
+    background: linear-gradient(to right, rgba(37, 242, 37, 0.771) ,white 20px);
+    text-indent: 25px;
+}
